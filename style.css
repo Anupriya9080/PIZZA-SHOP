@@ -1,0 +1,102 @@
+body {
+    background-image: url('./delicious-pizza-indoors\ \(2\).jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f0f8ff; /* Text color */
+    font-family: 'Roboto', sans-serif; /* Font family */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    color: white;
+    padding: 250px 0;
+    background: url('./top-view-delicious-food-with-copy-space.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero .display-1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 6rem;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 2.7);
+}
+
+.hero .lead {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.0rem;
+    margin-top: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Menu Section */
+.menu-section {
+    padding: 50px 0;
+    text-align: center;
+    color: brown;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card-body {
+    background-color: #b09a9a;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.card {
+    max-width: 280px;
+    margin: auto;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation Bar */
+.navbar-dark .navbar-nav .nav-link {
+    color: #f8f9fa;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+/* Section Background */
+.section-bg {
+    background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+    color: white; /* White text for better contrast */
+    padding: 50px 0; /* Padding for spacing */
+    margin-bottom: 50px; /* Space below each section */
+}
+
+/* About Section */
+.text-center1 {
+    color: white;
+    padding: 50px 0;
+    border-radius: 5px;
+}
+
+/* Our Service Section */
+#services {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.text-center {
+    text-align: center;
+    color: #f0f8ff;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #343a40;
+    width: 100%;
+    position: relative;
+    padding: 20px 0; /* Padding for footer */
+}
